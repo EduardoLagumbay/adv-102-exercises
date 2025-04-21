@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { FlatList, View, TextInput, StyleSheet } from 'react-native';
 import { Button, Card, Text } from 'react-native-paper';
-import { ItemContext } from '@/components/ui/ItemContext';
+import  ItemContext  from '@/components/ui/ItemContext';
 
 const ItemList: React.FC = () => {
   const context = useContext(ItemContext);

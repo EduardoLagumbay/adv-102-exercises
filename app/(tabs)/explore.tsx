@@ -1,4 +1,4 @@
-import { Image, Platform, View, Text, ScrollView } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 import { Card, Paragraph, Title } from 'react-native-paper';
 import { directs } from '../utils/paths';
 import { router } from 'expo-router';
@@ -12,11 +12,11 @@ export default function TabTwoScreen() {
       padding: 25,
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: "black"
+      backgroundColor: "white"
     }}>
       {directs.map((path, index) => (
         <Card
-          onPress={() => path.direct && router.push(path.direct)}
+          onPress={() => path.direct && router.push(path.direct as any)}
           key={index}
           style={{
             width: "100%",

@@ -37,6 +37,26 @@ export default function RootLayout() {
         <Stack.Screen name="screens/useState" options={{ headerShown: true, title: "useState screen" }} />
         <Stack.Screen name="screens/crudScreen" options={{ headerShown: true, title: "crud screen" }} />
         <Stack.Screen name="screens/hooks" options={{ headerShown: true, title: "hooks screen" }} />
+        <Stack.Screen name="screens/Exercise_7/quiz" options={{
+          title: "Quiz Screen",
+           headerShown: true 
+          }}/> 
+        <Stack.Screen name="screens/Exercise_8/container" options={{
+          title: "Login and Registration Container Screen",
+           headerShown: true 
+        }}/> 
+        <Stack.Screen name="screens/Exercise_8/login" options={{
+          title: "Login Screen",
+           headerShown: true 
+        }}/> 
+        <Stack.Screen name="screens/Exercise_8/register" options={{
+          title: "Register Screen",
+           headerShown: true 
+        }}/> 
+        <Stack.Screen name="screens/dashboard" options={{
+          title: "Register Screen",
+           headerShown: true 
+        }}/> 
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />

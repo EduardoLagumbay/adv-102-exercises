@@ -89,7 +89,7 @@ export default function registerScreen(){
                       textAlign: "center",
                       padding: 5,
                 }}>
-                    Register
+                    Submit to Register
                 </Text>
             </TouchableOpacity>
         </View>
